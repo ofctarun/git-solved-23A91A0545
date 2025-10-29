@@ -49,5 +49,31 @@
       "reset_on_restart": true,
       "debug_queries": true
     }
+  },
+
+  "_experimental": {
+    "_comment": "Experimental configuration — not used in production",
+    "connection": {
+      "type": "distributed",
+      "hosts": ["node1.example.com", "node2.example.com", "node3.example.com"],
+      "database": "devops_experimental",
+      "connection_pooling": "pgbouncer"
+    },
+    "backup": {
+      "strategy": "continuous",
+      "schedule": "*/15 * * * *",
+      "geo_redundancy": true
+    },
+    "replication": {
+      "multi_region": true,
+      "regions": ["us-east", "eu-west", "ap-south"]
+    },
+    "ai_optimization": {
+      "query_optimization": true,
+      "index_suggestions": true
+    },
+    "monitoring": {
+      "metrics_export": "prometheus"
+    }
   }
 }
