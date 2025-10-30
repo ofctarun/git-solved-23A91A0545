@@ -1,0 +1,25 @@
+* ceb1d2e (HEAD -> main, origin/main, origin/HEAD) docs: Add changelog
+* b723f61 docs: Add Git journey documentation
+| * d5e6f63 (feature/another-feature) Bad commit
+|/  
+| * d6b9134 (origin/feature/another-feature) feat: Add test feature
+|/  
+* 55963d4 (tag: v1.1.0, tag: v1.0.0) docs: Update README
+* 7385944 (feature/new-feature) feat: Add new feature
+* 4fe0fb4 docs: Add FAQ section
+| * cb76663 (origin/feature/new-feature) feat: Add new feature
+|/  
+* 2568d09 checkpoint3
+*   8b521bf Resolved config/app-config.yaml conflicts — kept stable config, added experimental features commented out
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | 96eb0ad checkpoint2
+* |   14a5590 merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | a1c9451 checkpoint1
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
